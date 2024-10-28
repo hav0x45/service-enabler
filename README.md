@@ -17,8 +17,9 @@ sudo ./setup.sh
 sudo enable-service <service>
 ```
 2. Remove services
+```
 sudo remove-service <service>
-
+```
 3. Check the status of services
 ```
 sudo service-status
