@@ -30,7 +30,7 @@ sudo remove-service <service>
 sudo services
 ```
 
-## Uninstalling
+### Uninstalling
 1. Run the uninstall script
 ```
 sudo ./uninstall.sh
