@@ -3,13 +3,13 @@ echo "adding execute permissions to enable-service..."
 sudo chmod +x enable-service
 echo "adding execute permissions to remove-service..."
 sudo chmod +x remove-service
-echo "adding exevute permissions to service-status..."
-sudo chmod +x service-status
+echo "adding execute permissions to services..."
+sudo chmod +x services
 echo "copying enable-service to /usr/local/bin/..."
 sudo cp enable-service /usr/local/bin/
 echo "copying remove-service to /usr/local/bin/..."
 sudo cp remove-service /usr/local/bin/
-echo "copying service-status to /usr/local/bin/..."
+echo "copying services to /usr/local/bin/..."
 sudo cp services /usr/local/bin/
 echo "done!"
 echo ""

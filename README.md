@@ -21,7 +21,7 @@ sudo ./setup.sh
 ### Usage
 1. Link service to /run/runit/service
 ```
-sudo link-service <service>
+sudo enable-service <service>
 ```
 2. Remove services from /run/runit/service
 ```
@@ -29,7 +29,7 @@ sudo remove-service <service>
 ```
 3. Check the status of services
 ```
-sudo service-status
+sudo services
 ```
 
 ## Uninstalling
