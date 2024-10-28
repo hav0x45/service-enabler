@@ -2,12 +2,11 @@
 ## Currently tested on Artix Linux and works like a charm.
 ## Usage:
 ```
-# Install the files using setup.sh
 # If setup.sh is not executable do:
-'sudo chmod +x setup.sh'
+sudo chmod +x setup.sh
+
 # Then install the files
-'./setup.sh'
-# And that's it!
+sudo ./setup.sh
 
 # Enable services by doing:
 sudo enable-service <service>
