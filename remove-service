@@ -1,0 +1,4 @@
+#!/bin/sh
+echo 'Unlinking '$1 'from /run/runit/service...'
+sudo rm -f /run/runit/service/$1
+echo 'Done!'

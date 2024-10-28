@@ -1,0 +1,4 @@
+#!/bin/sh
+echo 'Linking '$1 'to /run/runit/service...'
+sudo ln -s /etc/runit/sv/$1 /run/runit/service
+echo 'Done!'
