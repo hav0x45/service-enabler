@@ -2,10 +2,9 @@
 ## Tools for managing services without systemctl
 
 ### Description
-1. Link services from /etc/runit/sv into /run/runit/service
-2. Remove services from /run/runit/service
-3. Check service statuses with ```services```
-
+1. Link/Enable services from /etc/runit/sv/ ```enable-service <service>```
+2. Remove services from /run/runit/service ```remove-service <service>```
+3. Check services with ```services```
 
 ### Installation
 1. Make sure setup.sh is executable
@@ -16,10 +15,9 @@ sudo chmod +x setup.sh
 ```
 sudo ./setup.sh
 ```
-3. That's it!
 
 ### Usage
-1. Link service to /run/runit/service
+1. Link service from /etc/runit/sv to /run/runit/service
 ```
 sudo enable-service <service>
 ```
@@ -27,7 +25,7 @@ sudo enable-service <service>
 ```
 sudo remove-service <service>
 ```
-3. Check the status of services
+3. Check the services in /run/runit/service
 ```
 sudo services
 ```
