@@ -10,10 +10,7 @@ sudo chmod +x setup.sh
 ```
 sudo ./setup.sh
 ```
-3. Delete setup.sh
-```
-sudo rm setup.sh
-```
+3. That's it!
 
 ### Usage
 1. Enable services
@@ -28,4 +25,16 @@ sudo remove-service <service>
 ```
 sudo service-status
 ```
+
+## Uninstalling
+1. Run the uninstall script
+```
+sudo ./uninstall.sh
+```
+2. Remove to delete the folder with the contents also
+```
+cd ..
+sudo rm -rf service-tools/
+```
+
 ### That's it! Enjoy!
