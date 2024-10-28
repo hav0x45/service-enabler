@@ -10,7 +10,7 @@ sudo cp enable-service /usr/local/bin/
 echo "copying remove-service to /usr/local/bin/..."
 sudo cp remove-service /usr/local/bin/
 echo "copying service-status to /usr/local/bin/..."
-sudo cp service-status /usr/local/bin/
+sudo cp services /usr/local/bin/
 echo "done!"
 echo ""
 echo "use enable-service <service> to enable a service"
