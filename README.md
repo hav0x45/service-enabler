@@ -17,15 +17,15 @@ sudo ./setup.sh
 ```
 
 ### Usage
-1. Link service from /etc/runit/sv to /run/runit/service
+1. Link service from /etc/runit/sv to /run/runit/service/
 ```
 sudo enable-service <service>
 ```
-2. Remove services from /run/runit/service
+2. Remove services from /run/runit/service/
 ```
 sudo remove-service <service>
 ```
-3. Check the services in /run/runit/service
+3. Check the services in /run/runit/service/
 ```
 sudo services
 ```
