@@ -1,4 +1,4 @@
 #!/bin/sh
-echo 'Loading the services...'
+echo 'loading the services...'
 sudo sv status /run/runit/service/*
-echo 'Done!'
+echo 'done!'
