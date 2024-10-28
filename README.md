@@ -2,13 +2,17 @@
 ## Tools for managing services without systemctl
 
 ### Installation:
-1. Make setup.sh executable
+1. Make sure setup.sh is executable
 ```
 sudo chmod +x setup.sh
 ```
 2. Run setup.sh
 ```
 sudo ./setup.sh
+```
+3. Delete setup.sh
+```
+sudo rm setup.sh
 ```
 
 ### Usage
