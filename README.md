@@ -1,5 +1,5 @@
 # service-tools
-## Tools for managing services without systemctl
+## Tools for managing services for linux distros using the runit init system
 
 ### Description
 1. Link/Enable services from /etc/runit/sv/ ```enable-service <service>```
