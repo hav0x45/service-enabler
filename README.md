@@ -2,7 +2,7 @@
 ## Tools for managing services for linux distros using the runit init system
 
 ### Description
-1. Link services from /etc/runit/sv/ ```enable-service <service>```
+1. Link services from /etc/runit/sv/ to /run/runit/service ```enable-service <service>```
 2. Remove services from /run/runit/service ```remove-service <service>```
 3. Check services with ```services```
 
