@@ -2,9 +2,9 @@
 ## Tools for managing services for linux distros using the runit init system
 
 ### Description
-1. Link services from /etc/runit/sv/ to /run/runit/service ```enable-service <service>```
-2. Remove services from /run/runit/service ```remove-service <service>```
-3. Check services with ```services```
+1. Link a service ```enable-service <service>```
+2. Remove a service ```remove-service <service>```
+3. Check services ```services```
 
 ### Installation
 1. Make sure setup.sh is executable
