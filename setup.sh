@@ -1,10 +1,10 @@
 #!/bin/sh
-echo "adding execute permissions to enable-service..."
 sudo chmod +x enable-service
-echo "adding execute permissions to remove-service..."
+echo "adding execute permissions to enable-service..."
 sudo chmod +x remove-service
-echo "adding execute permissions to services..."
+echo "adding execute permissions to remove-service..."
 sudo chmod +x services
+echo "adding execute permissions to services..."
 echo "copying enable-service to /usr/local/bin/..."
 sudo cp enable-service /usr/local/bin/
 echo "copying remove-service to /usr/local/bin/..."
